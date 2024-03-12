@@ -43,16 +43,11 @@ This web application is designed to provide users with information about BAG, in
 
 ## Folder Structure
 
-1.Form_Implementation&User_Feedback
 
 - `feedback.html`: Contains the Feedback form HTML.
 - `success.html`: Contains the Success page HTML.
-
-  2.Responsive_Design_Creation
-
 - `index.html`: Contains the About page HTML.
-
-  3.`styles.css`: CSS file for styling the pages.
+- `styles.css`: CSS file for styling the pages.
 
 ## Feedback
 
