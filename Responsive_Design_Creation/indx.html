@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bag About</title>
+  <link rel="stylesheet" href="../Form_Implementation&User_Feedback/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./src//font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <!--navigation  -->
+      <div class="navbar">
+        <div class="logo">
+          <img src="https://www.bag.work/_next/static/media/BAG-Logo.ce7e902b.svg" alt="logo" width="80px" />
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="">Home</a></li>
+            <li><a href="" class="active">About</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="menu-icon" onclick="menuToggle()">&#9776;</div>
+      </div>
+
+      <!-- About Section -->
+      <section class="about-section">
+        <div class="container">
+          <h2>About Us</h2>
+          <p> In today's digital era, users access platforms from a myriad of devices with various screen sizes, from mobile phones to desktop monitors. </p>
+
+          <div class="sub-section">
+            <h3>Our Mission</h3>
+            <p>Ensuring a consistent and optimized user experience across these devices is vital. For a platform like BAG,</p>
+          </div>
+
+          <div class="sub-section">
+            <h3>Our Vision</h3>
+            <p>where users might be accessing simulations and training modules on-the-go or from different settings,</p>
+          </div>
+
+          <div class="sub-section">
+            <h3>Our Values</h3>
+            <p> it's essential that our content looks impeccable and remains functional irrespective of the device being used.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- js -->
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+          if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+          } else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+</body>
+
+</html>
